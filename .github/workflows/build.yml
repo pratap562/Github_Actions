@@ -3,5 +3,5 @@ jobs:
   first-job:
     runs-on: macos-latest
     steps:
-      -users: actions/checkout@master
+      -uses: actions/checkout@master
       -run: node --version
