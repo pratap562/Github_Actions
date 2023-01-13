@@ -4,3 +4,6 @@ jobs:
     runs-on: macos-latest
     steps:
       - run: node --version
+      - run: npm
+      - uses: actions/checkout@v3
+      - run: node index.js
